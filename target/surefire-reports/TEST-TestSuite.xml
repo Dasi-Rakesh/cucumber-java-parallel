@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="47.822" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="20+36-2344"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/rakesh/Projects/JavaDemo/cucumber-java-parallel"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/rakesh/Projects/JavaDemo/cucumber-java-parallel"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="20+36-2344"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.io.tmpdir" value="/var/folders/sh/m5htp0ps0t938blw5f4y97yc0000gq/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="suiteXmlFile" value="testng.xml"/>
+    <property name="classworlds.conf" value="/Users/rakesh/Maven/apache-maven-3.9.1/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/rakesh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/rakesh/Maven/apache-maven-3.9.1/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="64.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="12.1"/>
+    <property name="library.jansi.path" value="/Users/rakesh/Maven/apache-maven-3.9.1/lib/jansi-native"/>
+    <property name="user.home" value="/Users/rakesh"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="20"/>
+    <property name="user.name" value="rakesh"/>
+    <property name="java.class.path" value="/Users/rakesh/Maven/apache-maven-3.9.1/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DsuiteXmlFile=testng.xml"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home"/>
+    <property name="apple.awt.application.name" value="Launcher"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="20"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/rakesh/Maven/apache-maven-3.9.1"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2023-03-21"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+  </properties>
+  <testcase name="scenario" classname="cucumber.tests.TestRunner" time="47.822"/>
+  <testcase name="scenario" classname="cucumber.tests.TestRunner" time="68.231"/>
+  <testcase name="scenario" classname="cucumber.tests.TestRunner" time="25.799">
+    <failure message="Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id = &apos;twotabsearchtextbox&apos;] (tried for 15 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id = 'twotabsearchtextbox'] (tried for 15 second(s) with 500 milliseconds interval)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at pages.BasePage.waitForElementClikable(BasePage.java:145)
+	at pages.HomePage.SearchForProduct(HomePage.java:110)
+	at cucumber.steps.BStackDemoSteps.iSearchFor(BStackDemoSteps.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)
+	at cucumber.tests.TestRunner.scenario(TestRunner.java:29)
+</failure>
+    <system-out><![CDATA[Website Title is : Amazon.com. Spend less. Smile more.
+Page Title is verified
+]]></system-out>
+    <system-err><![CDATA[┌──────────────────────────────────────────────────────────────────────────┐
+│ View your Cucumber Report at:                                            │
+│ https://reports.cucumber.io/reports/de97d3b4-48af-41f7-8bab-85f4d899cd15 │
+│                                                                          │
+│ This report will self-destruct in 24h.                                   │
+│ Keep reports forever: https://reports.cucumber.io/profile                │
+└──────────────────────────────────────────────────────────────────────────┘Apr 21, 2023 4:03:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

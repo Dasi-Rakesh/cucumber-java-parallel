@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Parallel-Testing" parallel="tests" thread-count="3">
+
+    <test name="TestOnChrome">
+        <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="10"/>
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="browserVersion" value="80"/>
+        <classes>
+            <class name="cucumber.tests.TestRunner"/>
+        </classes>
+    </test>
+
+    <test name="TestOnFirefox">
+        <parameter name="os" value="Windows"/>
+        <parameter name="osVersion" value="11"/>
+        <parameter name="browser" value="Firefox"/>
+        <parameter name="browserVersion" value="latest"/>
+        <classes>
+            <class name="cucumber.tests.TestRunner"/>
+        </classes>
+    </test>
+
+    <test name="TestOnSafari">
+        <parameter name="os" value="OS X"/>
+        <parameter name="osVersion" value="Big Sur"/>
+        <parameter name="browser" value="Safari"/>
+        <parameter name="browserVersion" value="latest"/>
+        <classes>
+            <class name="cucumber.tests.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>

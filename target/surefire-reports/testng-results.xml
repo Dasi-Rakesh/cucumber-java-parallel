@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-21T16:00:23 IST" name="Parallel-Testing" finished-at="2023-04-21T16:03:35 IST" duration-ms="192324">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.tests.TestRunner@a53bb6f]" name="scenario" class="cucumber.tests.TestRunner"/>
+        <method signature="TestRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.tests.TestRunner@253c1256]" name="scenario" class="cucumber.tests.TestRunner"/>
+        <method signature="TestRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.tests.TestRunner@109f5dd8]" name="scenario" class="cucumber.tests.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-04-21T16:00:23 IST" name="TestOnChrome-0" finished-at="2023-04-21T16:01:24 IST" duration-ms="61341">
+      <class name="cucumber.tests.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:cucumber.tests.TestRunner@a53bb6f]" started-at="2023-04-21T16:00:23 IST" name="setUpClass" finished-at="2023-04-21T16:00:23 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:cucumber.tests.TestRunner@a53bb6f]" started-at="2023-04-21T16:00:23 IST" name="setup" finished-at="2023-04-21T16:00:29 IST" duration-ms="5367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.tests.TestRunner@a53bb6f]" started-at="2023-04-21T16:00:29 IST" name="scenario" description="Run Cucumber Features." data-provider="scenarios" finished-at="2023-04-21T16:01:16 IST" duration-ms="47818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Product in Amazon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[BStackDemo.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:cucumber.tests.TestRunner@a53bb6f]" started-at="2023-04-21T16:01:16 IST" name="teardown" finished-at="2023-04-21T16:01:23 IST" duration-ms="6621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.tests.TestRunner@a53bb6f]" started-at="2023-04-21T16:01:23 IST" name="tearDownClass" finished-at="2023-04-21T16:01:24 IST" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.tests.TestRunner -->
+    </test> <!-- TestOnChrome-0 -->
+    <test started-at="2023-04-21T16:01:24 IST" name="TestOnFirefox-0" finished-at="2023-04-21T16:02:54 IST" duration-ms="89948">
+      <class name="cucumber.tests.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:cucumber.tests.TestRunner@253c1256]" started-at="2023-04-21T16:01:24 IST" name="setUpClass" finished-at="2023-04-21T16:01:24 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:cucumber.tests.TestRunner@253c1256]" started-at="2023-04-21T16:01:24 IST" name="setup" finished-at="2023-04-21T16:01:36 IST" duration-ms="11789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.tests.TestRunner@253c1256]" started-at="2023-04-21T16:01:36 IST" name="scenario" description="Run Cucumber Features." data-provider="scenarios" finished-at="2023-04-21T16:02:44 IST" duration-ms="68244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Product in Amazon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[BStackDemo.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:cucumber.tests.TestRunner@253c1256]" started-at="2023-04-21T16:02:46 IST" name="teardown" finished-at="2023-04-21T16:02:53 IST" duration-ms="7175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.tests.TestRunner@253c1256]" started-at="2023-04-21T16:02:53 IST" name="tearDownClass" finished-at="2023-04-21T16:02:54 IST" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.tests.TestRunner -->
+    </test> <!-- TestOnFirefox-0 -->
+    <test started-at="2023-04-21T16:02:54 IST" name="TestOnSafari-0" finished-at="2023-04-21T16:03:35 IST" duration-ms="41009">
+      <class name="cucumber.tests.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:cucumber.tests.TestRunner@109f5dd8]" started-at="2023-04-21T16:02:54 IST" name="setUpClass" finished-at="2023-04-21T16:02:54 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:cucumber.tests.TestRunner@109f5dd8]" started-at="2023-04-21T16:02:54 IST" name="setup" finished-at="2023-04-21T16:03:02 IST" duration-ms="7167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Big Sur]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.tests.TestRunner@109f5dd8]" started-at="2023-04-21T16:03:02 IST" name="scenario" description="Run Cucumber Features." data-provider="scenarios" finished-at="2023-04-21T16:03:27 IST" duration-ms="25790" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Product in Amazon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[BStackDemo.]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id = 'twotabsearchtextbox'] (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@id = 'twotabsearchtextbox'] (tried for 15 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pages.BasePage.waitForElementClikable(BasePage.java:145)
+at pages.HomePage.SearchForProduct(HomePage.java:110)
+at cucumber.steps.BStackDemoSteps.iSearchFor(BStackDemoSteps.java:34)
+at ✽.I search for "iphone X"(file:///Users/rakesh/Projects/JavaDemo/cucumber-java-parallel/src/test/java/cucumber/features/BStackDemo.feature:6)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Rakesh*con', ip: 'fe80:0:0:0:c41:b4c6:5bf3:f40%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.1.2, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 20G314, safari:platformVersion: 11.6.2, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 73d34c2e754e4a93eec41a4734a..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 73d34c2e754e4a93eec41a4734ab8288e9f4a07d
+*** Element info: {Using=xpath, value=//input[@id = 'twotabsearchtextbox']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at pages.BasePage.waitForElementClikable(BasePage.java:145)
+at pages.HomePage.SearchForProduct(HomePage.java:110)
+at cucumber.steps.BStackDemoSteps.iSearchFor(BStackDemoSteps.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:117)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:114)
+at cucumber.tests.TestRunner.scenario(TestRunner.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:cucumber.tests.TestRunner@109f5dd8]" started-at="2023-04-21T16:03:27 IST" name="teardown" finished-at="2023-04-21T16:03:34 IST" duration-ms="6451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.tests.TestRunner@109f5dd8]" started-at="2023-04-21T16:03:34 IST" name="tearDownClass" finished-at="2023-04-21T16:03:35 IST" duration-ms="1476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.tests.TestRunner -->
+    </test> <!-- TestOnSafari-0 -->
+  </suite> <!-- Parallel-Testing -->
+</testng-results>
