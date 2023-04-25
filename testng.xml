@@ -32,5 +32,4 @@
             <class name="cucumber.tests.TestRunner"/>
         </classes>
     </test>
-
 </suite>
